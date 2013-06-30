@@ -1,6 +1,18 @@
 /* ----- validation form ----- */
+#rightPane {
+	float: right;
+}
 
-form#validation {
+
+#leftPane {
+	float: left;
+}
+
+/*#rightPane::after {
+	clear:both;
+}*/
+
+form#validation,form#validationDirect {
   width: 550px;
   margin-left: auto;
   margin-right: auto;
